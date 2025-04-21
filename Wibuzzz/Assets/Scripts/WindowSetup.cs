@@ -25,7 +25,7 @@ public class WindowSetup : MonoBehaviour
         // Hacer borderless
         SetWindowLong(hwnd, GWL_STYLE, WS_POPUP);
 
-        // Tamaño deseado (mitad de la pantalla)
+        // Tamaï¿½o deseado (mitad de la pantalla)
         int width = Screen.currentResolution.width / 2;
         int height = Screen.currentResolution.height / 2;
 
