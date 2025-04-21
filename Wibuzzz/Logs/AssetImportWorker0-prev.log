@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.23f1 (1c4764c07fb4) revision 1853284'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'es' Physical Memory: 16334 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 8035 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Danie/Documents/GitHub+/Wibuzzz/Wibuzzz-Launcher/Wibuzzz
+C:/Users/PC/Desktop/RepositorioGit/Wibuzzz-Launcher/Wibuzzz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65148
+53996
 -job-worker-count
-1
+3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Users/Danie/Documents/GitHub+/Wibuzzz/Wibuzzz-Launcher/Wibuzzz
-C:/Users/Danie/Documents/GitHub+/Wibuzzz/Wibuzzz-Launcher/Wibuzzz
+Successfully changed project path to: C:/Users/PC/Desktop/RepositorioGit/Wibuzzz-Launcher/Wibuzzz
+C:/Users/PC/Desktop/RepositorioGit/Wibuzzz-Launcher/Wibuzzz
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,15 +59,13 @@ C:/Users/Danie/Documents/GitHub+/Wibuzzz/Wibuzzz-Launcher/Wibuzzz
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24256]  Target information:
+Player connection [35904]  Target information:
 
-Player connection [24256]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2679969112 [EditorId] 2679969112 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CNV91NP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35904]  * "[IP] 192.168.115.29 [Port] 0 [Flags] 2 [Guid] 2738813887 [EditorId] 2738813887 [Version] 1048832 [Id] WindowsEditor(7,PORTATILSAEZ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24256]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2679969112 [EditorId] 2679969112 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CNV91NP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [24256] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24256] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 1
+Player connection [35904] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35904] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -77,61 +75,60 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Danie/Documents/GitHub+/Wibuzzz/Wibuzzz-Launcher/Wibuzzz/Assets
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/RepositorioGit/Wibuzzz-Launcher/Wibuzzz/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 580 2048SP (ID=0x6fdf)
-    Vendor:   ATI
-    VRAM:     8135 MB
-    Driver:   31.0.21921.1000
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4017 MB
+    Driver:   31.0.101.2130
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009487 seconds.
-- Loaded All Assemblies, in  0.847 seconds
+Registered in 0.008213 seconds.
+- Loaded All Assemblies, in  0.800 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.898 seconds
-Domain Reload Profiling: 1743ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  0.747 seconds
+Domain Reload Profiling: 1542ms
+	BeginReloadAssembly (345ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (117ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (95ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (75ms)
 	LoadAllAssembliesAndSetupDomain (300ms)
-		LoadAssemblies (288ms)
+		LoadAssemblies (339ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (296ms)
-			TypeCache.Refresh (295ms)
-				TypeCache.ScanAssembly (257ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (267ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (902ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (747ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (785ms)
+		SetupLoadedEditorAssemblies (672ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (55ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (308ms)
-			ProcessInitializeOnLoadMethodAttributes (397ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (223ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,163 +136,1282 @@ Domain Reload Profiling: 1743ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.604 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.578 seconds
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.728 seconds
-Domain Reload Profiling: 5306ms
-	BeginReloadAssembly (1536ms)
+- Finished resetting the current domain, in  1.579 seconds
+Domain Reload Profiling: 4141ms
+	BeginReloadAssembly (1541ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (289ms)
-	RebuildNativeTypeToScriptingClass (34ms)
-	initialDomainReloadingComplete (118ms)
-	LoadAllAssembliesAndSetupDomain (1600ms)
-		LoadAssemblies (1189ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (855ms)
+		LoadAssemblies (793ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (792ms)
-			TypeCache.Refresh (547ms)
-				TypeCache.ScanAssembly (500ms)
-			BuildScriptInfoCaches (215ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1729ms)
+		AnalyzeDomain (305ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (179ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1580ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1084ms)
+		SetupLoadedEditorAssemblies (1206ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (166ms)
-			ProcessInitializeOnLoadAttributes (773ms)
-			ProcessInitializeOnLoadMethodAttributes (114ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (1055ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5932 unused Assets / (4.7 MB). Loaded Objects now: 6699.
-Memory consumption went from 174.0 MB to 169.2 MB.
-Total: 18.832700 ms (FindLiveObjects: 0.672100 ms CreateObjectMapping: 4.611300 ms MarkObjects: 7.417000 ms  DeleteObjects: 6.130800 ms)
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3630 unused Assets / (1.1 MB). Loaded Objects now: 4230.
+Memory consumption went from 112.0 MB to 110.9 MB.
+Total: 12.729600 ms (FindLiveObjects: 0.517400 ms CreateObjectMapping: 0.781100 ms MarkObjects: 9.745700 ms  DeleteObjects: 1.682500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2757.454903 seconds.
+  Time since last request: 2670750.905942 seconds.
   path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
   artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f14237b8f48a230ed205851362b001') in 8.5474606 seconds
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80dc31fa9136bb35e7bc96d891d60fd0') in 0.8596271 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AvatarCreator/Models
+  artifactKey: Guid(0e8865b5b2bafe445a1edbb21f9ff1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models using Guid(0e8865b5b2bafe445a1edbb21f9ff1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c7334d2b42432240525f3e9ac6757e9') in 0.0021952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AvatarCreator/Models/Avatars
+  artifactKey: Guid(ba99b6c90968d944493f0dc0f08d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars using Guid(ba99b6c90968d944493f0dc0f08d4376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170e87d89878b0e764f76426487817f4') in 0.0010989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.625304 seconds.
   path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
   artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f14237b8f48a230ed205851362b001') in 0.1699823 seconds
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15a935aa94429c055527ca941f4d31e3') in 0.2464254 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.658058 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2363c49440ed341c362c273b691a2a0') in 0.2440568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.182418 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1.mat
+  artifactKey: Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1.mat using Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ecc3fa155fe3a486242de5d6457a0e7') in 0.0149438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1 1.mat
+  artifactKey: Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1 1.mat using Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a2ef82ba4edae06ccefccb78341eae7') in 0.0110191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.386893 seconds.
+  path: Assets/AvatarCreator
+  artifactKey: Guid(1d4c3cd412ad4c34da24514b383f62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator using Guid(1d4c3cd412ad4c34da24514b383f62f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5372243232f9a5cc6873da3324c76a4') in 0.0006627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.877438 seconds.
+  path: Assets/AvatarCreator/Textures
+  artifactKey: Guid(2a95bfa5e185bf448b7727c1c9061fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures using Guid(2a95bfa5e185bf448b7727c1c9061fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b33fd965e4c6ef4665978613e0b0cba') in 0.001956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.202909 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes
+  artifactKey: Guid(1f04265a8195f2d4cbc66aca0b428db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes using Guid(1f04265a8195f2d4cbc66aca0b428db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4039f7cf637f0cb85d4b83ced0acb37') in 0.0008477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.464898 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2184961881df60975ce94e6436258151') in 0.0522128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.883529 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6026c991360f6ebf127bb4fd357a9075') in 0.0113435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.972 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.474 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.445 seconds
-Domain Reload Profiling: 2411ms
-	BeginReloadAssembly (304ms)
+- Finished resetting the current domain, in  1.335 seconds
+Domain Reload Profiling: 2802ms
+	BeginReloadAssembly (330ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (75ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (985ms)
+		LoadAssemblies (928ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (215ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1446ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (4ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1019ms)
+		SetupLoadedEditorAssemblies (987ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (793ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (840ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (6.1 MB). Loaded Objects now: 6783.
-Memory consumption went from 174.2 MB to 168.1 MB.
-Total: 12.814900 ms (FindLiveObjects: 0.867100 ms CreateObjectMapping: 1.241900 ms MarkObjects: 6.182400 ms  DeleteObjects: 4.522100 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3667 unused Assets / (0.6 MB). Loaded Objects now: 4320.
+Memory consumption went from 117.4 MB to 116.8 MB.
+Total: 15.612700 ms (FindLiveObjects: 0.575200 ms CreateObjectMapping: 0.559500 ms MarkObjects: 12.960700 ms  DeleteObjects: 1.515900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 119.632672 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2719c25124287f12943f7b80f6acfcbd') in 0.080743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.184450 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c63e392887c20b83a650c1e1ad052b') in 0.011136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797939 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ca9ab8e3148244cd95fd8b1f20212f') in 0.0095902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.605330 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(854ebd82957fb3441b451127f340c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb546ce70b999c886f03a12003fefb8') in 0.0413479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.878232 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1 2.mat
+  artifactKey: Guid(fdb367b59bcb6cb428401da50479a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1 2.mat using Guid(fdb367b59bcb6cb428401da50479a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50d0e8a4702e95846ce54abb687a6472') in 0.0565477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.978376 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(fdb367b59bcb6cb428401da50479a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(fdb367b59bcb6cb428401da50479a148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6a01df1387ad22d54d2e6a38f2c32f') in 0.0105323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.166678 seconds.
+  path: Assets/AvatarCreator/Materials/Piel.mat
+  artifactKey: Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Piel.mat using Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a65e08b02ae2634efcba06aab678960') in 0.0081169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.101443 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1 2.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1 2.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7bd5c4155b9f4dafc29085bdb8d774') in 0.0077942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.061176 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51cff2d2c52a5b9850be298ddd617fd2') in 0.0086963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.766641 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3a68010bbdbf216a68ea52995d7223') in 0.0094236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002331 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5320dab21fb21de545114565a4962217') in 0.0373807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e531106bb50346da136fc5e3ac907097') in 0.0416375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ea501a00f61ebe7dd632ce0827d1fcd') in 0.0091449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.194215 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f3ccedb0019ef379e55c7427d7d62ac') in 0.0095778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.169945 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '690d5ac331baeff3e2daec4750760c0f') in 0.0451191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.139761 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojo1.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojo1.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6166bf6b30f03521e1ec7241ca79f57') in 0.0089189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.278864 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojo1.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojo1.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e29e14b2ce1f4d4c50ceff323512e2b') in 0.008118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.638106 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ad60b034c879f70fe8d6b5f920565da') in 0.0080134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.749988 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos 1.png
+  artifactKey: Guid(01272e19254cf3640855b0cd37521624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos 1.png using Guid(01272e19254cf3640855b0cd37521624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07abd64fe73f3eb3672d720abea0e46f') in 0.0089691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.851068 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59d58b06993f3ff7f4b9b9cfa0a23b04') in 0.0124796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.982346 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81d30fcc7b2293d0ca1c57791ba48576') in 0.0104946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.631201 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7993a8cafb9ed8297341116a99524110') in 0.0108341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.342237 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e76953ef8d58c4a6cb0e0134e3bcb1ae') in 0.014258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.156609 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aa1498874b702b97bf203369ce8e8e1') in 0.0299359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.101880 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b9bf3aab53cf046d6212feb490af41') in 0.0145401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.035045 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad134cdba094ebf60c502657c44f89b') in 0.0160139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.490373 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea9fec3eb30bd1a21c7c1a872346416b') in 0.0170683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.455349 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos.png
+  artifactKey: Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos.png using Guid(c268cba98b6fd2f46b14f43f65924f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f865c118cfd6eb46fa925ed391d37d22') in 0.0509496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.087732 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos2.png
+  artifactKey: Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos2.png using Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943d6049b355b45863a57df051d7a5c9') in 0.0126476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.766583 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos2.png
+  artifactKey: Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos2.png using Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c30723815710c1db760f43faeb6ffa') in 0.0086222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.415669 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos2.png
+  artifactKey: Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos2.png using Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c255ab718cf77e53d1fad5c088de3696') in 0.0094701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.443083 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos2.png
+  artifactKey: Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos2.png using Guid(17785bd8ce827914094d61f1a858cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb82a1c0d5f6648d7e945cc8bcc70f6') in 0.008047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.398465 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos3.png
+  artifactKey: Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos3.png using Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2b505e4850b4be6747fc74113abb51') in 0.016105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.933619 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos3.png
+  artifactKey: Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos3.png using Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355786bc3b64ac771255b037b6b93fbf') in 0.0086553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.694001 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos3.png
+  artifactKey: Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos3.png using Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5a0e87e420f867fb19adddb0deb5102') in 0.0101852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.183550 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos4.png
+  artifactKey: Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos4.png using Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4e8737775301b8ea5681fea8a1759f1') in 0.0128071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.844957 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos4.png
+  artifactKey: Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos4.png using Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '350144f8635d1afc75de81814811c4c0') in 0.0085989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.044810 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos4.png
+  artifactKey: Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos4.png using Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43c577d72081347cf81700a91b35c632') in 0.0114055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.859796 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos4.png
+  artifactKey: Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos4.png using Guid(f5f2942e3fc325242a8cb99d72cde4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5caefdd4aaa0baf303fb0d5fa37c3e8') in 0.0113942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.859440 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos5.png
+  artifactKey: Guid(dfec48e418d32ff42bd81e488a931589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos5.png using Guid(dfec48e418d32ff42bd81e488a931589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0fb7df52267fad82593a3b6b7d8379b') in 0.0287654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.003907 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos5.png
+  artifactKey: Guid(dfec48e418d32ff42bd81e488a931589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos5.png using Guid(dfec48e418d32ff42bd81e488a931589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f26caf22309ddcf3d7660727e246291d') in 0.0096334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.280540 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos3.png
+  artifactKey: Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos3.png using Guid(d07e83a8e78d67943a7193c954c8d586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1032330a6b019cb69711b2e74a39a93b') in 0.0112383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.700701 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos6.png
+  artifactKey: Guid(b03b1e111ddffbd45bc8dd4a1e94c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos6.png using Guid(b03b1e111ddffbd45bc8dd4a1e94c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48017b09b6a6494a19d8f21a1c9fdb54') in 0.0138789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.888677 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos6.png
+  artifactKey: Guid(b03b1e111ddffbd45bc8dd4a1e94c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos6.png using Guid(b03b1e111ddffbd45bc8dd4a1e94c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5141cd5de472d4de45f5a4d1b2d88ffc') in 0.0085901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.749864 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos7.png
+  artifactKey: Guid(06b9fa83c6707044e9ab37d4b4396b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos7.png using Guid(06b9fa83c6707044e9ab37d4b4396b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2744a71f7a5e5f90cd2454540587d943') in 0.0179579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.572197 seconds.
+  path: Assets/AvatarCreator/Textures/Eyes/ojos7.png
+  artifactKey: Guid(06b9fa83c6707044e9ab37d4b4396b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Textures/Eyes/ojos7.png using Guid(06b9fa83c6707044e9ab37d4b4396b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88a146d06a0f5e9e864e3e9717b9c08c') in 0.0086332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1819.007753 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0be87c485c7c4dcfda7dcccffe47b31') in 0.0533258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.549473 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb2c03ecd3d83b1954ebcc40b14357a') in 0.1932627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.366024 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e9723dd7fe8eaa86ab22fe3f93a43c1') in 1.0733717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.782215 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5be2fbbb5b323c4fb65516337154d551') in 0.0367187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.877970 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '505597eee42a289ff36f2e6b79fbd86f') in 3.6635493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.354505 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfb78d81efa111f7556b6b375c506642') in 0.0170489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.941087 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1698ef09604be2452aafd0db026d4b1c') in 0.0142167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.188127 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c6113292aa84263e124a560a589559b') in 0.0139407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.572064 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1 1.mat
+  artifactKey: Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1 1.mat using Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7de20cc9a67b493e0d5710c458652c49') in 0.016194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.133439 seconds.
+  path: Assets/AvatarCreator/Materials/ExplMat1 1.mat
+  artifactKey: Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/ExplMat1 1.mat using Guid(ad5332c0bdf05df4ea3f47d4481c8649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c43470255946c80da3395f4978e9ec4') in 0.00976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.594924 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa9d1b1f18c0ffb42e5a3a4436538ae3') in 0.3537902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.154757 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97de1076e3497255e1d763d44d0bc900') in 1.5395125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.148329 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd73e115f9c89ca862ef4a78023635538') in 0.8143184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 120
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.631 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.076 seconds
+Domain Reload Profiling: 12702ms
+	BeginReloadAssembly (1532ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (395ms)
+	RebuildCommonClasses (192ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (3708ms)
+		LoadAssemblies (3415ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1152ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1043ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (7079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5181ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (4626ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (61ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (80ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.6 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.6 MB to 116.0 MB.
+Total: 53.287100 ms (FindLiveObjects: 2.615700 ms CreateObjectMapping: 1.949500 ms MarkObjects: 42.923300 ms  DeleteObjects: 5.793600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 208.755614 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24673547f99563918489d3dc51fe5cf7') in 1.8040604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.510270 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '779ca0c146ec44142799c5a08b3c7d61') in 1.9368929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.851226 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5d3008540c196dca63a1e7e85ec39f1') in 0.0377479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.049912 seconds.
+  path: Assets/AvatarCreator/Materials/Ojos.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Ojos.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeeae458078463ba8c79ea29036a8199') in 0.0751735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.854637 seconds.
+  path: Assets/AvatarCreator/Models/Avatars/Avatar.blend
+  artifactKey: Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Models/Avatars/Avatar.blend using Guid(430438835b869244f8d4d11b7a8e7147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '352d2ea54f34279f65b29ef314820c40') in 0.2800758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.747482 seconds.
+  path: Assets/AvatarCreator/Materials
+  artifactKey: Guid(9979471a60f9be14ba74d705bfdf5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials using Guid(9979471a60f9be14ba74d705bfdf5fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65318cfbfb78cb4e6ceb9f7d52de12bb') in 0.0022148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.053238 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes
+  artifactKey: Guid(c7542a6885877b5409b7b14c4969ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes using Guid(c7542a6885877b5409b7b14c4969ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1492a84046292347d5b066e1603c7896') in 0.0025425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.779105 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo1.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo1.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f85dc0092ad9d674ae49e4939958997') in 0.0252105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.450642 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo1 1.mat
+  artifactKey: Guid(7643e0ade25970647af008b40155293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo1 1.mat using Guid(7643e0ade25970647af008b40155293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2582af3ffcce8f6ec88ece079b043324') in 0.026827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.656068 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo.mat
+  artifactKey: Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo.mat using Guid(e80d2c73fee9c5d4592ff2c9cef003de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73b2ac8b045b0b472a3bd802e522cf7a') in 0.0354332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.031619 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 1.mat
+  artifactKey: Guid(ce965835a2bf962409d87b7965278f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 1.mat using Guid(ce965835a2bf962409d87b7965278f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '944e537f8f55571279cea718e5a40e4f') in 0.0126472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.427339 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 2.mat
+  artifactKey: Guid(5f07431fe2d78c04885b211981185d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 2.mat using Guid(5f07431fe2d78c04885b211981185d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd072f00bab8a5426a872905595de59e2') in 0.0249245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638930 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 3.mat
+  artifactKey: Guid(f7ccae9b61a6a144981721f348c05a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 3.mat using Guid(f7ccae9b61a6a144981721f348c05a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcd92ddcc68b50511a2daf6b70bd541a') in 0.0253428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.454777 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 4.mat
+  artifactKey: Guid(cdf91c2d8b819b243b2b9a6d211d96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 4.mat using Guid(cdf91c2d8b819b243b2b9a6d211d96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee6ece8335e9176cc0170ef538c29224') in 0.02161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366878 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 5.mat
+  artifactKey: Guid(ff100d5b55d85fa40b5f9ed422e706d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 5.mat using Guid(ff100d5b55d85fa40b5f9ed422e706d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eed11ae9e9ade7dddfa194aabbd8a35') in 0.0126916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246594 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 6.mat
+  artifactKey: Guid(4486901ad16d04748b3821b24ca0404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 6.mat using Guid(4486901ad16d04748b3821b24ca0404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '396cbc12ff9243eff99889b9816c675f') in 0.0264673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256457 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 7.mat
+  artifactKey: Guid(9a8ccadd2f358334ca9482099ea11e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 7.mat using Guid(9a8ccadd2f358334ca9482099ea11e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '139349aacdbafeaa487891f9b184a4cd') in 0.0289415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.612055 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 2.mat
+  artifactKey: Guid(5f07431fe2d78c04885b211981185d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 2.mat using Guid(5f07431fe2d78c04885b211981185d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5165e0b2350b0d928a4b6e6c1340f9f4') in 0.0363812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 3.mat
+  artifactKey: Guid(f7ccae9b61a6a144981721f348c05a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 3.mat using Guid(f7ccae9b61a6a144981721f348c05a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5fed6276936e4064e523ead91b6ad0') in 0.0277036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 6.mat
+  artifactKey: Guid(4486901ad16d04748b3821b24ca0404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 6.mat using Guid(4486901ad16d04748b3821b24ca0404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef40c3cd57cfd9e69de696897b65ae41') in 0.0375463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 4.mat
+  artifactKey: Guid(cdf91c2d8b819b243b2b9a6d211d96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 4.mat using Guid(cdf91c2d8b819b243b2b9a6d211d96e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b436b77aa07c2169d16104d8c90cfebc') in 0.0218403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 7.mat
+  artifactKey: Guid(9a8ccadd2f358334ca9482099ea11e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 7.mat using Guid(9a8ccadd2f358334ca9482099ea11e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743204662c62eceadbb88972a3e1b00d') in 0.031077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AvatarCreator/Materials/Eyes/Ojo 5.mat
+  artifactKey: Guid(ff100d5b55d85fa40b5f9ed422e706d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Eyes/Ojo 5.mat using Guid(ff100d5b55d85fa40b5f9ed422e706d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f1f79bf9edad1d1596039b35f2d564') in 0.0337623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.247 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.949 seconds
+Domain Reload Profiling: 5192ms
+	BeginReloadAssembly (372ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (713ms)
+		LoadAssemblies (655ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (243ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3953ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3059ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (2791ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.3 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 116.1 MB.
+Total: 24.663700 ms (FindLiveObjects: 1.838000 ms CreateObjectMapping: 1.205900 ms MarkObjects: 17.789100 ms  DeleteObjects: 3.828000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.918 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.606 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.247 seconds
-Domain Reload Profiling: 2160ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  1.752 seconds
+Domain Reload Profiling: 3352ms
+	BeginReloadAssembly (546ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (888ms)
+		LoadAssemblies (913ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (281ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1752ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (1126ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.5 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 115.9 MB.
+Total: 13.015400 ms (FindLiveObjects: 0.794100 ms CreateObjectMapping: 0.844300 ms MarkObjects: 8.411200 ms  DeleteObjects: 2.963000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.233 seconds
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.655 seconds
+Domain Reload Profiling: 2884ms
+	BeginReloadAssembly (357ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (607ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1656ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (1082ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (0.9 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 116.5 MB.
+Total: 15.164400 ms (FindLiveObjects: 0.751200 ms CreateObjectMapping: 0.784300 ms MarkObjects: 11.415500 ms  DeleteObjects: 2.211100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.137 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.813 seconds
+Domain Reload Profiling: 2945ms
+	BeginReloadAssembly (379ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (108ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (218ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1269ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (1080ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.9 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 115.6 MB.
+Total: 13.783900 ms (FindLiveObjects: 0.737500 ms CreateObjectMapping: 0.818000 ms MarkObjects: 8.661900 ms  DeleteObjects: 3.562700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 409.103927 seconds.
+  path: Assets/AvatarCreator/Materials/Piel 1.mat
+  artifactKey: Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Piel 1.mat using Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf807e9ad18f71916ce8a0c5fc4352c') in 0.2485159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.643018 seconds.
+  path: Assets/AvatarCreator/Materials/Nose.mat
+  artifactKey: Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Nose.mat using Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e218a04f6f418da2097033638027060c') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.807774 seconds.
+  path: Assets/AvatarCreator/Materials/Nose.mat
+  artifactKey: Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Nose.mat using Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d665f526536e6f0f656ceafa1f768b') in 0.0165874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419882 seconds.
+  path: Assets/AvatarCreator/Materials/Nose.mat
+  artifactKey: Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Nose.mat using Guid(40e48ba7a4b178545b4df6e87ad82eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e001e5b31e2d80798ed907d81a756c1') in 0.1030415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.780774 seconds.
+  path: Assets/AvatarCreator/Materials/Piel.mat
+  artifactKey: Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AvatarCreator/Materials/Piel.mat using Guid(df4ff20db1137f04bb77120bd1ffe5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8838c42fe1f495b6133af3f9bfafc5ec') in 0.0796376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.957 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.189 seconds
+Domain Reload Profiling: 9142ms
+	BeginReloadAssembly (941ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (575ms)
-		LoadAssemblies (447ms)
+		CreateAndSetChildDomain (657ms)
+	RebuildCommonClasses (414ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (513ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
+		AnalyzeDomain (239ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (232ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1248ms)
+			BuildScriptInfoCaches (219ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (7190ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (865ms)
+		SetupLoadedEditorAssemblies (5521ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (694ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (290ms)
+			ProcessInitializeOnLoadAttributes (3140ms)
+			ProcessInitializeOnLoadMethodAttributes (1651ms)
+			AfterProcessingInitializeOnLoad (424ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (408ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 14.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.3 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 116.2 MB.
+Total: 50.397700 ms (FindLiveObjects: 1.645200 ms CreateObjectMapping: 1.746700 ms MarkObjects: 38.894200 ms  DeleteObjects: 8.105900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.319 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.159 seconds
+Domain Reload Profiling: 3480ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (763ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (255ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2160ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (1032ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5942 unused Assets / (5.5 MB). Loaded Objects now: 6785.
-Memory consumption went from 172.4 MB to 166.8 MB.
-Total: 9.170400 ms (FindLiveObjects: 0.670400 ms CreateObjectMapping: 0.979000 ms MarkObjects: 4.624300 ms  DeleteObjects: 2.895600 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.1 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 116.3 MB.
+Total: 9.239800 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.550900 ms MarkObjects: 6.801100 ms  DeleteObjects: 1.371800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.221 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.716 seconds
+Domain Reload Profiling: 2933ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (721ms)
+		LoadAssemblies (595ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (266ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (1038ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Failed to load shader (instanceID 32386, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3666 unused Assets / (1.3 MB). Loaded Objects now: 4327.
+Memory consumption went from 117.4 MB to 116.1 MB.
+Total: 9.927800 ms (FindLiveObjects: 0.507000 ms CreateObjectMapping: 0.580900 ms MarkObjects: 7.031400 ms  DeleteObjects: 1.807200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
