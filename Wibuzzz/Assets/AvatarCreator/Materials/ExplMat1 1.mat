@@ -83,12 +83,12 @@ Material:
     - _GradIntensity: 0
     - _GradYCap: 0
     - _HighIntensity: 2.55
-    - _LightScalar: 1.38
+    - _LightScalar: 2.67
     - _LowIntensity: 1.28
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineSize: 0
+    - _OutlineSize: 24.43
     - _Parallax: 0.02
     - _RampLevels: 50
     - _RimAlpha: 0.162

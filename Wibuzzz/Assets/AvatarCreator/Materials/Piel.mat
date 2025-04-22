@@ -88,12 +88,12 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineSize: 0
+    - _OutlineSize: 24.43
     - _Parallax: 0.02
     - _RampLevels: 50
-    - _RimAlpha: 0.241
-    - _RimDropOff: 0.144
-    - _RimPower: 0.279
+    - _RimAlpha: 0.473
+    - _RimDropOff: 0
+    - _RimPower: 0.324
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -106,6 +106,6 @@ Material:
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _LowColor: {r: 1, g: 0.8498583, b: 0.6273585, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.5660378, g: 0.40431267, b: 0, a: 1}
+    - _RimColor: {r: 0.6037736, g: 0.33126017, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

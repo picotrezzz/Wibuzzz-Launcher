@@ -3,6 +3,10 @@ using TMPro;
 using UnityEngine.UI;
 public class AvatarManager : MonoBehaviour
 {
+    [Header("Brows")]
+    public Mesh[] Brows;
+    public Mesh[] CuttedBrows;
+    public int browType;
     [Header("Ojos")]
     public Button EyesUp;
     public Button EyesDown;
@@ -12,12 +16,16 @@ public class AvatarManager : MonoBehaviour
     public Button EyesTiltDown;
     public Transform REye;
     public Transform LEye;
+    public Transform REyeForRot;
+    public Transform LEyeForRot;
     public Transform bothEyes;
     public float EyePos;
     public float EyeRot;
     public float EyeSeparation;
     public float EyeSize;
     public int EyeType;
+    public Quaternion rotInicialOjoL;
+    public Quaternion rotInicialOjoR;
     [Header("Nariz")]
     public Button NoseUp;
     public Button NoseDown;
@@ -41,18 +49,49 @@ public class AvatarManager : MonoBehaviour
     {
         NoseSize = 0;
         NosePos = 0;
+
+        rotInicialOjoL = LEyeForRot.localRotation;
+        rotInicialOjoR = REyeForRot.localRotation;
     }
 
     // Update is called once per frame
     void Update()
     {
-        AvatarRotator.localRotation = Quaternion.Euler(0, RotatorAvatarSlider.value, 0);
+        AvatarRotator.localRotation = Quaternion.Euler(0, RotatorAvatarSlider.value * -1, 0);
+    }
+
+    //CEJAS
+    public void SetBrowType(int type)
+    {
+        browType = type;
     }
 
     //EYES
     public void SetEyesType(int type)
     {
         EyeType = type;
+    }
+
+    public void RotateEyesUp()
+    {
+        EyeRot++;
+        Vector3 rotacionActualL = LEyeForRot.localEulerAngles;
+        Vector3 rotacionActualR = REyeForRot.localEulerAngles;
+        rotacionActualR.z -= 10f;
+        rotacionActualL.z += 10f;
+        REyeForRot.localEulerAngles = rotacionActualR;
+        LEyeForRot.localEulerAngles = rotacionActualL;
+    }
+
+    public void RotateEyesDown()
+    {
+        EyeRot--;
+        Vector3 rotacionActualL = LEyeForRot.localEulerAngles;
+        Vector3 rotacionActualR = REyeForRot.localEulerAngles;
+        rotacionActualR.z += 10f;
+        rotacionActualL.z -= 10f;
+        REyeForRot.localEulerAngles = rotacionActualR;
+        LEyeForRot.localEulerAngles = rotacionActualL;
     }
 
     public void SmallEyes()
@@ -95,6 +134,8 @@ public class AvatarManager : MonoBehaviour
 
     public void RestartEyes()
     {
+        LEyeForRot.localRotation = rotInicialOjoL;
+        REyeForRot.localRotation = rotInicialOjoR;
         EyePos = 0;
         EyeSize = 0;
         bothEyes.localPosition = new Vector3(0,0,0);
