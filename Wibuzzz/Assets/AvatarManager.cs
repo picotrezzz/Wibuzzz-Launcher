@@ -6,7 +6,16 @@ public class AvatarManager : MonoBehaviour
     [Header("Brows")]
     public Mesh[] Brows;
     public Mesh[] CuttedBrows;
-    public int browType;
+    public MeshFilter RBrowMesh;
+    public MeshFilter LBrowMesh;
+    public Transform bothBrowsPos;
+    public bool RCut;
+    public bool LCut;
+    public float BrowsPos;
+    public float BrowsSeparation;
+    public float BrowsRotation;
+    public float BrowsSize;
+    public int browType = 1;
     [Header("Ojos")]
     public Button EyesUp;
     public Button EyesDown;
@@ -23,7 +32,7 @@ public class AvatarManager : MonoBehaviour
     public float EyeRot;
     public float EyeSeparation;
     public float EyeSize;
-    public int EyeType;
+    public int EyeType = 1;
     public Quaternion rotInicialOjoL;
     public Quaternion rotInicialOjoR;
     [Header("Nariz")]
@@ -64,6 +73,42 @@ public class AvatarManager : MonoBehaviour
     public void SetBrowType(int type)
     {
         browType = type;
+    }
+
+    public void CutRBrow()
+    {
+        RBrowMesh.mesh = CuttedBrows[browType - 1];
+        RCut = true;
+    }
+
+    public void UnCutRBrow()
+    {
+        RBrowMesh.mesh = Brows[browType - 1];
+        RCut = false;
+    }
+
+    public void CutLBrow()
+    {
+        LBrowMesh.mesh = CuttedBrows[browType - 1];
+        LCut = true;
+    }
+
+    public void UnCutLBrow()
+    {
+        LBrowMesh.mesh = Brows[browType - 1];
+        LCut = false;
+    }
+
+    public void UpBrows()
+    {
+        BrowsPos+=0.5f;
+        bothBrowsPos.localPosition += new Vector3(0,0.05f,0);
+    }
+
+    public void DownBrows()
+    {
+        BrowsPos-=0.5f;
+        bothBrowsPos.localPosition -= new Vector3(0,0.05f,0);
     }
 
     //EYES
@@ -110,12 +155,14 @@ public class AvatarManager : MonoBehaviour
 
     public void SeparateEyes()
     {
+        EyeSeparation++;
         LEye.localPosition -= new Vector3(0, 0.1f, 0);
         REye.localPosition += new Vector3(0, 0.1f, 0);
     }
 
     public void SquintEyes()
     {
+        EyeSeparation--;
         LEye.localPosition += new Vector3(0, 0.1f, 0);
         REye.localPosition -= new Vector3(0, 0.1f, 0);
     }
